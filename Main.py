@@ -8,8 +8,6 @@ janela = Window(720, 560)
 janela.set_title("Gabriel Rocha - Pong")
 ball = Sprite("Game_assets/ball.png", 1)
 restart = Sprite("Game_assets/restart.png")
-jogadores=0
-players = Sprite("Game_assets/players.png")
 mouse = Window.get_mouse()
 
 #posicionando a bolinha no centro
